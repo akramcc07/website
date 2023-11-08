@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(mountain_clouds.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.hl{
+    color: red;
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bar1{
+    text-decoration: none;
+    color: black;
+    font-family: 'Hubballi', sans-serif;
+    font-weight: 600;
+    margin: 20px;
+    padding: 10px;
+}
+a:hover{
+    color: hsl(215, 88%, 59%);
+}
+.myh3{
+    font-family: 'Hubballi', sans-serif;
+    font-size: 1.4em;
+    padding-left: 20px;
+    margin-left: 300px;
+}
+.mypara{
+    font-family: 'Hubballi', sans-serif;
+    font-weight: 700;
+    padding-left: 28px;
+    margin-left: 300px;
+}
+.myh1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5.9em;
+    font-weight: 900;
+}
+.myp{
+    font-family: 'Hubballi', sans-serif;
+    font-size: 1.5em;
+}
+.btn{
+    border: none;
+    background-color: black;
+    font-family: 'Hubballi', sans-serif;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    cursor: pointer;
+}
+.myh2{
+    width: 130px;
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+}
+.para{
+    width: 350px;
+    height: 600px;
+    margin-left: 60px;
+    justify-content: center;
+    font-family: 'Hubballi', sans-serif;
+    font-size: 1.2em;
+    padding: 20px;
+}
+.para1{
+    margin-top: 60px;
+    font-weight: 550;
+}
+.box{
+    text-align: center;
+    height: 80vh;
+}
+.myh14{
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-left: 170px;
+
+}
+.flx{
+    display: flex;
+}
+#img-1{
+    display: block;
+}
+.box1{
+    background-color: hsl(156, 29%, 32%);
+    background-clip: url();
+    float: left;
+    width: 80vw;
+    height: 90vh;
+}
+.box2{
+    float: right;
+    height: 90vh;
+    overflow: hidden;
+}
+.myh4{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 660px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.myh5{
+    font-family: 'Hubballi', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-top: 80px;
+}
+.fig1{
+    border:solid 5px black;
+    height: 500px;
+    width: 330px;
+    margin: 0 50px 0 50px;
+    text-align: center;
+}
+.fig2{
+    border:solid 5px black;
+    height: 500px;
+    width: 330px;
+    margin: 0 50px 0 50px;
+    text-align: center;
+}
+.fig3{
+    border:solid 5px black;
+    height: 500px;
+    width: 330px;
+    margin: 0 50px 0 50px;
+    text-align: center;
+}
+.mypp{
+    font-family: 'Hubballi', sans-serif;
+    font-weight: 500;
+}
+footer{
+    color: white;
+    background: none;
+    background-color: none;
+    backdrop-filter: blur(2px) brightness(100%);
+    display: flex;
+    flex-direction: row;
+}
+.footer-left{
+    width: 50vw;
+}
+.footer-right{
+    font-family: 'Hubballi', sans-serif;
+    font-weight: 900;
+    width: 40vw;
+    margin: 60px;
+    text-align: left;
+    padding: 10px;
+}
+.myh16{
+    font-family: 'Hubballi', sans-serif;
+    font-weight: 600;
+    width: 450px;
+    height: 550px;
+    margin-left: 150px;
+    padding: 60px;
+}
+.myh6{
+    font-size: 1.4em;
+    font-weight: 900;
+}
+.icon{
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+.ffemail{
+    text-decoration: none;
+    color: white;
+}
+#name{
+    border: solid 1px white;
+    background: transparent;
+}
+#email{
+    border: solid 1px white;
+    background: transparent;
+}#password{
+    border: solid 1px white;
+    background: transparent;
+}
+#sub{
+    border: solid 1px white;
+    background: transparent;
+}
+#comment{
+    border: solid 1px white;
+    background: transparent;
+}
+#signin{
+    border: solid 1px white;
+    background: transparent;
+    color: white;
+}
+
